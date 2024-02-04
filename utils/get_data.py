@@ -9,8 +9,10 @@ def apt_image(y, x, danji_id, dong, name): # 구글 스트리트 뷰 API를 이�
     load_dotenv(verbose=True)
     API_KEY = os.getenv('GOOGLE_STREET_VIEW_API_KEY')
 
-    IMAGE_PATH ='C:/PythonDev/소스 코드/apt/src/assets/apt_img/'
-    FONT_PATH = 'C:/PythonDev/소스 코드/apt/src//assets/Fonts/malgun.ttf'
+
+    IMAGE_PATH ='C:/PythonDev/apt\src/assets/apt_img/'
+    #IMAGE_PATH ='../assets/apt_img/'
+    FONT_PATH = '../assets/Fonts/malgun.ttf'
 
     heading_list = list(range(-45, 360-45, 90))
     img_list = []
