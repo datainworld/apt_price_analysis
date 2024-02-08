@@ -839,7 +839,7 @@ app.layout = dbc.Container([
 get_callbacks(app)
 
 if __name__ == '__main__':
-    app.run(jupyter_mode='external', debug=True)
+    app.run()
 
 # %%
 
