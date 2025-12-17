@@ -19,7 +19,7 @@ import time
 from glob import glob
 import pytz
 
-HEADER = {"Authorization": "KakaoAK 07388a54868f826733e37c3327e4fa35"}
+HEADER = {"Authorization": 
 APT_DATA_API_KEY = "E8UDOX%2FTJezD0Jt3itdyuW93fL08IgT%2BMyB9eyh0sw0AIKZcSiOfUh99wSVKoTBBIEWkCSGABuMmAtAmnXWIyw%3D%3D"
 #H EADER = os.getenv('kakao_header') # 환경변수에서 키를 가져온다.
 #H EADER =dict(json.loads(HEADER)) # json 형식의 문자열을 dict 형식으로 변환
